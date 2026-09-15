@@ -1,6 +1,6 @@
-baseURL: https://example.org/
-locale: en-us
-title: My New Hugo Project
+baseURL: "http://localhost:1313/"
+languageCode: "en-us"
+title: "Defensive Remnant"
 theme: ["PaperMod"]
 paginate: 10
 
@@ -12,16 +12,22 @@ outputs:
 
 params:
   env: production
-  title: "Your Name"
-  description: "Technology and ministry resources"
+  title: "Defensive Remnant"
+  description: "Technology, infrastructure, and ministry resources"
   profileMode:
     enabled: false
   homeInfoParams:
-    Title: "Welcome to Your Name"
-    Content: "I write about technology, cybersecurity, infrastructure, and educational resources."
+    Title: "Welcome to Defensive Remnant"
+    Content: |
+      I write about technology, cybersecurity, infrastructure, and educational resources.
+      Explore the sections below to find content that interests you.
   socialIcons:
     - name: email
       url: "mailto:your@email.com"
+      title: Email
+    - name: github
+      url: "https://github.com/yourusername"
+      title: GitHub
 
 menu:
   main:
@@ -34,3 +40,6 @@ menu:
     - name: About
       url: /about/
       weight: 30
+    - name: Archive
+      url: /archives/
+      weight: 40
