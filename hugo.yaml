@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://DefensiveRemnant.github.io/defensiveremnant-blog/"
 languageCode: "en-us"
 title: "Defensive Remnant"
 theme: ["PaperMod"]
