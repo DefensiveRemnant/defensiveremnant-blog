@@ -1,0 +1,22 @@
+# Hugo
+resources/
+public/
+.hugo_build.lock
+
+# System
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+Thumbs.db
+
+# Local build artifacts
+dist/
+build/
